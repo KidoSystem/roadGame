@@ -1,0 +1,28 @@
+*{
+    margin:0;
+}
+.box_svg{
+    position: absolute;
+    width: 10vw;
+    top: 13vw;
+    left: 5vw;
+    margin: 0;
+}
+#moveBlock{
+    position: absolute;
+    z-index: 1000;
+    width: 5vw;
+}
+.arrow_svg{
+    transform: rotate(360deg);
+}
+
+.arrow_svg:not(:last-of-type) {
+    margin-right: 25px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
